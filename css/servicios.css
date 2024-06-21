@@ -1,0 +1,209 @@
+/*Cabecera*/
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 420px;
+    padding: 60px;
+    margin: 20px auto;
+    background: rgb(5, 102, 105);
+    text-align: center;
+}
+.logo img{
+    width: 500px;
+}
+nav{
+    position: relative;
+    background: white;
+    width: 960px;
+    border-radius: 15px;
+    margin: 10px auto;
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    border-radius: 15px;
+    transition: all 1.5s;
+}
+ul li a:hover, ul li a:active{
+    color: rgba(35, 201, 223, .1);
+    color: white;
+    border-radius: 15px;
+}
+li{
+    text-align: center;
+    display: inline-block;
+    margin: 2px;
+}
+li a:hover{
+    background: rgb(35, 201, 223);
+    border-radius: 15px;
+}
+/*Fin De Cabecera*/
+
+/* body*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: "Kalam", cursive;
+    text-align: center;
+}
+hr{
+    border: 2px solid black;
+    position: relative;
+    top: 93px;
+    z-index: -10;
+}
+h2{
+    width: 930px;
+    margin: 50px auto;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    border-radius: 35px;
+    background: #4583FF;
+    box-shadow: 15px 15px 15px rgba(47, 51, 53, 0.5);
+}
+main{
+    margin: 100px;
+}
+.color1, .color3{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.5);
+}
+.color2 {
+    box-shadow: -15px 15px 20px  rgb(0, 0, 0, 0.5);
+}
+.color1 h3{
+    width: 280px;
+    height: 70px;
+    font-size: 42px;
+    text-align: left;
+    top: 110px;
+    position: relative;
+    padding: 5px 20px ;
+    color: white;
+    background: black;
+    border-radius: 0 20px 20px 0;
+}
+.color1 p{
+    width: 410px;
+    font-size: 32px;
+    position: relative;
+    left: 45%;
+    bottom: 70px;
+}
+.color1{
+    width: 900px;
+    height: 300px;
+    margin: 60px auto;
+    background: #4583FF;
+    border-radius: 0 35px 35px 35px;
+    transition-duration: 1s, 1s;
+    transition-delay: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: ease;
+}
+/*transition*/
+.color1{
+    transition: transform 0.6s ease-in-out , background 0.6s ease-in-out;
+}
+.color2{
+    transition: transform 0.2s ease-in-out , background 0.2s ease-in-out;
+}
+.color3{
+    transition: transform 0.2s ease-in-out , background 0.2s ease-in-out;
+}
+.color1:hover{
+    background: #f0ffff;
+    transform: scale(1.1);
+}
+.color2:hover{
+    background: #f0ffff;
+    transform: scale(1.1);
+}
+.color3:hover{
+    background: #f0ffff;
+    transform: scale(1.1);
+}
+/*transition*/
+.color2 h3{
+    width: 330px;
+    height: 70px;
+    font-size: 42px;
+    position: relative;
+    top: 110px;
+    text-align: right;
+    margin-left: 570px;
+    padding: 5px 20px;
+    color: white;
+    background: black;
+    border-radius: 20px 0px 0px 20px;
+}
+.color2 p{
+    width: 500px;
+    font-size: 32px;
+    position: relative;
+    bottom: 65px;
+    margin-left: 30px;
+}
+.color2{
+    width: 900px;
+    height: 300px;
+    margin: 60px auto;
+    background: #2ABBF4;
+    border-radius: 35px 0 35px 35px;
+    transition-duration: 1s, 1s;
+    transition-delay: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: ease;
+}
+.color3 h3{
+    width: 220px;
+    height: 70px;
+    font-size: 42px;
+    text-align: left;
+    top: 110px;
+    position: relative; 
+    padding: 5px 20px;
+    color: white;
+    background: black;
+    border-radius: 0 20px 20px 0;
+}
+.color3 p{
+    width: 540px;
+    font-size: 32px;
+    position: relative;
+    left: 33%;
+    bottom: 90px;
+}
+.color3{
+    width: 900px;
+    height: 300px;
+    margin: 60px auto;
+    background: #36E8DF;
+    border-radius: 0 35px 35px 35px;
+    transition-duration: 1s, 1s;
+    transition-delay: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: ease;
+}
+/*Fin de body*/
+
+/*pie de pagina*/
+footer img{
+    width: 60px;
+}
+footer{
+    text-align: center;
+    background: rgb(24, 207, 207);
+    color: white;
+    padding: 10px;
+}
